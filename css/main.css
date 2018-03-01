@@ -1,0 +1,37 @@
+.submit {
+    background-color:grey;}
+
+.fn, .ln {
+    box-shadow: inset solid black;
+    border: solid black 1px;
+    border-radius: 25px;
+    padding: 5px;
+    
+
+}
+
+.fn:focus,
+.ln:focus {
+    border: red 1px solid;
+    background-color: yellow;
+    color: red;
+}
+
+[required]:focus{
+    background-color: red;
+    color: yellow;
+}
+
+.titles{
+    padding: 5px;
+    font: bold;
+}
+
+.req{
+    color: red;
+    font-size: 12px;
+    position: relative;
+    top: -3px;
+    
+
+}
